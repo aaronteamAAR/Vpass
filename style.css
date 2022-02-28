@@ -1,0 +1,178 @@
+
+* {
+ margin: 0;
+ padding: 0;
+ user-select: none;
+ box-sizing: border-box;
+  }
+
+  img{
+    max-width: 10%;
+    max-height: 120rem;
+   position: relative; 
+    float: left; 
+  list-style: none; 
+  margin-right: 20px;
+ margin-bottom: 10em;
+ transform: rotate(-39deg);
+
+  }
+  h1{
+font-family: Karla;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+color: white;
+letter-spacing: -0.025e
+
+  }
+.h2{
+font-family: Karla;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+color: #10B981;
+letter-spacing: -0.025em;
+}
+body {
+ background: #1F2937;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+    }
+svg{
+  align-items: center;
+
+}
+
+input {
+ padding: 20px;
+ user-select: none;
+ height: 50px;
+ width: 400px;
+ border-radius: 6px;
+ border: none;
+ border: 2px solid wh;
+ outline: none;
+ font-size: 22px;
+ font-family: Karla;
+ }
+
+input::placeholder{
+  font-size: 23px;
+  font-family: Karla;
+ } 
+
+button {
+ padding: 10px;
+ font-size: 15px;
+ outline: none;
+ border: 2px solid black;
+ background-color: white;
+ color: white;
+ position: relative;
+ letter-spacing: 1px;
+ margin-left: 40px;
+ width: 211px;
+height: 39px;
+font-family: Karla;
+font-weight: 400;
+}
+
+button::before {
+
+ content: 'Generate';
+ position: absolute;
+ top: -14%;
+ left: 7%;
+ background-color:#10B981;
+;
+ width: 100%;
+ height: 100%;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: 0.15s ease-in-out;
+ font-weight: bold;
+ font-family: Karla;
+}
+
+button:hover::before {
+ top: 0;
+ left: 0;
+}
+
+
+.button2 {
+ padding: 10px;
+ font-size: 15px;
+ outline: none;
+ border: 2px solid black;
+ background-color: white;
+ color: white;
+ position: relative;
+ letter-spacing: 1px;
+ margin-right: 40px;
+ font-family: Karla;
+ font-weight: 400;
+}
+
+.button2::before {
+ content: 'Copy';
+ position: absolute;
+ top: -14%;
+ left: 7%;
+ background-color: #10B981;
+ width: 100%;
+ height: 100%;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: 0.15s ease-in-out;
+ font-weight: bold;
+ width: 211px;
+height: 39px;
+ font-family: Karla;
+}
+
+.button2:hover::before {
+ top: 0;
+ left: 0;
+}
+
+footer {
+  align-self: stretch;
+  display: flex;
+  align-content: center;
+   position:absolute;
+   bottom:0;
+   width:1;
+   bottom: -110px;
+   font-family: Karla;
+   font-size: 24px;
+   
+}
+.footer2{
+align-self: stretch;
+  display: flex;
+  align-content: center;
+   position:absolute;
+   bottom:0;
+   width:1;
+   bottom: -150px;
+   font-family: Karla;
+   
+}
+
+.container{
+  align-self: stretch;
+  display: flex;
+  align-content: center;
+   position:absolute;
+
+}
